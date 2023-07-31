@@ -16,5 +16,5 @@ no-idl = []
 default = [ "cpi" ]
 
 [dependencies]
-anchor-gen = "0.3.0"
-anchor-lang = "0.27"
+anchor-gen = { git = "https://github.com/chugach-foundation/anchor-gen.git", version = "0.3.3" }
+anchor-lang = { git = "https://github.com/coral-xyz/anchor.git", version = "0.28.0" }
